@@ -6,26 +6,30 @@ A retro-style memory pattern matching game with a cyberpunk/neon aesthetic. Test
 
 ## 🕹️ Game Description
 
-**Pattern Mirror** is a memory pattern matching game where players must copy a displayed pattern on a grid. The twist? In later rounds, the pattern is horizontally mirrored! 
+**Pattern Mirror** is a memory pattern matching game where players must copy a displayed pattern on a grid. The twist? In later rounds, the pattern is horizontally mirrored!
 
 ### Game Rules
 
 **Single Player Mode:**
+
 - Complete 10 rounds with 3 lives
 - Wrong answer = -1 life
 - Game over when lives reach 0
 - Score +10 points for each correct round
 
 **2-Player Battle Mode:**
+
 - Race to complete 10 rounds first
 - Wrong answers slow you down (no lives lost)
 - First to finish all rounds wins!
 
 **Mirror Mode:**
+
 - Rounds 8-10 require horizontal mirroring of the pattern
 - Adds an extra challenge to test your spatial memory
 
 **Grid Progression:**
+
 - Rounds 1-2: 3×3 grid
 - Rounds 3-4: 4×4 grid
 - Rounds 5-6: 5×5 grid
@@ -45,16 +49,16 @@ A retro-style memory pattern matching game with a cyberpunk/neon aesthetic. Test
 
 ### Color Palette
 
-| Name | Hex | Usage |
-|------|-----|-------|
-| Background | `#0d0221` | Main background |
-| Dark | `#1a0b2e` | Card/panel backgrounds |
-| Purple | `#45125e` | Borders, accents |
-| Pink | `#ff006e` | Secondary buttons, errors |
-| Cyan | `#00f5d4` | Primary buttons, highlights |
-| Yellow | `#fee440` | Score, warnings |
-| Green | `#00bb9f` | Success states |
-| Red | `#ff3333` | Danger/loss |
+| Name       | Hex       | Usage                       |
+| ---------- | --------- | --------------------------- |
+| Background | `#0d0221` | Main background             |
+| Dark       | `#1a0b2e` | Card/panel backgrounds      |
+| Purple     | `#45125e` | Borders, accents            |
+| Pink       | `#ff006e` | Secondary buttons, errors   |
+| Cyan       | `#00f5d4` | Primary buttons, highlights |
+| Yellow     | `#fee440` | Score, warnings             |
+| Green      | `#00bb9f` | Success states              |
+| Red        | `#ff3333` | Danger/loss                 |
 
 ### Typography
 
@@ -65,19 +69,22 @@ A retro-style memory pattern matching game with a cyberpunk/neon aesthetic. Test
 ## 🖼️ Screenshots
 
 ### Main Menu
+
 ![Main Menu](./public/image/ss-1.png)
 
 ### Single Player Mode
+
 ![Single Player](./public/image/ss-2.png)
 
 ### 2-Player Battle Mode
+
 ![2-Player Battle](./public/image/ss-3.png)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -150,14 +157,14 @@ my-app/
 
 All sounds are synthesized in real-time using the Web Audio API:
 
-| Event | Sound |
-|-------|-------|
-| Menu button click | 440Hz sine wave, 0.1s |
-| Cell click | 880Hz square wave, 0.05s |
-| Correct answer | Ascending C major arpeggio |
-| Wrong answer | Descending sawtooth buzz |
-| Victory | Fanfare melody |
-| Game Over | Sad descending tones |
+| Event             | Sound                      |
+| ----------------- | -------------------------- |
+| Menu button click | 440Hz sine wave, 0.1s      |
+| Cell click        | 880Hz square wave, 0.05s   |
+| Correct answer    | Ascending C major arpeggio |
+| Wrong answer      | Descending sawtooth buzz   |
+| Victory           | Fanfare melody             |
+| Game Over         | Sad descending tones       |
 
 ## 📱 Responsive Breakpoints
 
@@ -175,7 +182,7 @@ All sounds are synthesized in real-time using the Web Audio API:
 
 ## 👨‍💻 Author
 
-**Alfan Fauzy** - [@oceanspacetec](https://instagram.com/oceanspacetec)
+**Alfan Fauzy** - [@alfanfauzy](https://github.com/alfanfauzy)
 
 ## 📄 License
 
@@ -183,4 +190,4 @@ All sounds are synthesized in real-time using the Web Audio API:
 
 ---
 
-*Built with ❤️ using React, TypeScript, and Vite*
+_Built with ❤️ using React, TypeScript, and Vite_
